@@ -6,4 +6,5 @@ sed -i -e '/^\tAllowOverride/s/None/All/' /etc/apache2/apache2.conf
 
 a2enmod rewrite
 
+systemctl restart apache2
 
